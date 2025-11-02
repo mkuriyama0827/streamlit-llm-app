@@ -24,10 +24,10 @@ st.divider()
 input_message = st.text_input(label="テキストを入力してください。")
 
 SYSTEM_MESSAGES = {
-    "A：インフラエンジニア（AWS/ネットワーク/SRE）":
+    "インフラエンジニア（AWS/ネットワーク/SRE）":
         ("You are a senior infrastructure engineer (AWS/Network/SRE). "
          "Provide concise, practical guidance considering reliability, security, cost, and operations."),
-    "B：英語コーチ（簡潔な英文作成・校正）":
+    "英語コーチ（簡潔な英文作成・校正）":
         ("You are an English writing coach. Provide concise, natural business English with brief tips and alternatives."),
 }
 
